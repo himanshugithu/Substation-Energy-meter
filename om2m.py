@@ -2,10 +2,10 @@ import requests
 import json
 from blink import blink
 DEV_CREDENTIALS = {
-    'username':"devtest",
-    'password':"devtest"
+    'username':"prodtest",
+    'password':"prodtest"
     }
-label = ["AE-EM","EM-CR-SB00-02","V2.0.0","EM-V2.0.0"]
+label = ["AE-EM","EM-CR-SB00-00","V2.0.0","EM-V2.0.0"]
 def create_cin(uri_cnt, value, cin_labels=label, data_format="json", credentials = DEV_CREDENTIALS):
     """
         Method description:

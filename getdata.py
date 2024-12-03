@@ -35,7 +35,7 @@ def read_modbus_values(slave_id):
     finally:
         client.close()
 
-_url = "http://dev-onem2m.iiit.ac.in:443/~/in-cse/in-name/AE-EM/EM-CR-SB00-02/Data"
+_url = "http://onem2m.iiit.ac.in:443/~/in-cse/in-name/AE-EM/EM-CR-SB00-00/Data"
 
 if __name__ == "__main__":
     meter_ids = [1, 2, 3, 4, 5]  # List of meter IDs
